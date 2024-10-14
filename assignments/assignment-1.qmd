@@ -2,7 +2,7 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
+
 
 My first assignment is has two parts.First part about a talk conducted with the contributions of Erdi Daşdemir and Baykal Hafızoğlu. Baykal Hafızoğlu is the main speaker of the talk. He completed his undergraduate and graduate studies in Turkey, earned his PhD at Arizona State University in the USA, and currently works at FICO in the USA. In the first step of my assignment, I will provide a brief summary of the talk and I will present two different questions about the talk along with their answers.
 
@@ -28,17 +28,21 @@ D) It builds a strong foundation for technical proficiency in various industries
 Hafızoğlu did not mention relation between Phyton and communication skills.
 
 ## (b)Polls_us_election_2016:
+
 ```{r}
 library(dslabs)
 data("polls_us_election_2016")
 polls_us_election_2016[1:10, ]
 ```
+
 Here is the first ten column of our data.And here is the number of NA values:
+
 ```{r}
 sum(is.na(polls_us_election_2016))
 ```
-Now we will replace all NA values in the “polls_us_election_2016” data set as follows: For numeric columns, we will replace NA values with 2001. For character or factor columns,we will  replace NA values with Barış.After that 
-we willstore the modified data set as a new object.
+
+Now we will replace all NA values in the “polls_us_election_2016” data set as follows: For numeric columns, we will replace NA values with 2001. For character or factor columns,we will replace NA values with Barış.After that we willstore the modified data set as a new object.
+
 ```{r}
 no_nas<- polls_us_election_2016
 birth_year<-2001
@@ -52,7 +56,9 @@ for (col in names(no_nas)){
    }
   }
 ```
+
 This must be do it.Let's check the results:
+
 ```{r}
 sum(is.na(no_nas))
 no_nas[1:10, ]

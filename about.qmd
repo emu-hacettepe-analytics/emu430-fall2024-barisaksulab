@@ -5,26 +5,30 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
 
 # Work Experience
 
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
-
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+1.  Firm IDEA Seramic, Production Department Intern,16/07/2024-12/08/2024
 
 # Projects
 
+1-Optimization and Modeling
+
+2-Maintenance Engineering
+
+3-Project Management
+
+4-Facility Location and Layout
+
 # Competencies
 
-R, Quarto, Git, Python
+R, Python,Excel
 
 # Hobbies
+
+Pets,books
+
+# CV
